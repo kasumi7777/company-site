@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourCompany | 次世代を支えるテクノロジーパートナー</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; color: #333; background: #fff; }
+    header { background: #003366; color: white; padding: 20px; text-align: center; }
+    nav ul { list-style: none; display: flex; justify-content: center; padding: 0; }
+    nav ul li { margin: 0 15px; }
+    nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+    .hero {
+      padding: 80px 20px;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2.5em; margin-bottom: 20px; }
+    .hero p { font-size: 1.2em; margin-bottom: 30px; }
+    .btn { background: #0066cc; color: white; padding: 10px 25px; border: none; cursor: pointer; }
+    .section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+    .section h2 { text-align: center; margin-bottom: 40px; }
+    .cards { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+    .card { flex: 1 1 250px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; text-align: center; }
+    .footer { background: #003366; color: white; text-align: center; padding: 20px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YourCompany</h1>
+    <nav>
+      <ul>
+        <li><a href="#news">ニュース</a></li>
+        <li><a href="#services">事業紹介</a></li>
+        <li><a href="#company">会社情報</a></li>
+        <li><a href="#recruit">採用情報</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>次世代を支えるテクノロジーパートナー</h1>
+    <p>イノベーションで社会に貢献する企業を目指します</p>
+    <button class="btn">詳しく見る</button>
+  </div>
+
+  <div class="section" id="news">
+    <h2>ニュース</h2>
+    <ul>
+      <li>2025/06/01 - ホームページをリニューアルしました</li>
+      <li>2025/05/20 - 新サービス「事業C」を開始</li>
+      <li>2025/05/01 - 採用情報を更新しました</li>
+    </ul>
+  </div>
+
+  <div class="section" id="services">
+    <h2>事業紹介</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>事業A</h3>
+        <p>社会インフラを支えるITソリューション</p>
+      </div>
+      <div class="card">
+        <h3>事業B</h3>
+        <p>業務効率化のためのシステム開発</p>
+      </div>
+      <div class="card">
+        <h3>事業C</h3>
+        <p>最先端技術を活用したソリューション提供</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="company">
+    <h2>会社情報</h2>
+    <p>私たちは、安心・安全な社会づくりに貢献します。</p>
+  </div>
+
+  <div class="section" id="recruit">
+    <h2>採用情報</h2>
+    <p>一緒に未来を創る仲間を募集しています。</p>
+    <button class="btn">採用ページへ</button>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>お問い合わせ</h2>
+    <p>お気軽にご連絡ください。</p>
+    <button class="btn">お問い合わせフォーム</button>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 YourCompany Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
